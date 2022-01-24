@@ -104,9 +104,9 @@ users.forEach(user=>{
     process.stdout.write(user.name + " ")
     for (let i  = 0 ;i< days ; i++){
         if (user.dayOff.includes(i+1)){
-            process.stdout.write(" ☺ |")
+            process.stdout.write(" 🟢|")
         }else if (user.Nbt4yat.includes(i+1)){
-            process.stdout.write(" x |")
+            process.stdout.write(" 🔴|")
         }else{
             process.stdout.write("   |")
         }            
