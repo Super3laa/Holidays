@@ -1,0 +1,23 @@
+{
+  "name": "holidays",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Super3laa/Holidays.git"
+  },
+  "author": "AlaaEssam",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Super3laa/Holidays/issues"
+  },
+  "homepage": "https://github.com/Super3laa/Holidays#readme",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "write-excel-file": "^1.3.12"
+  }
+}
