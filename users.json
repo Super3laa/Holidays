@@ -1,0 +1,204 @@
+{
+    "users": [
+        {
+            "name": "Khale",
+            "dayOff": [
+                1,
+                8,
+                15,
+                27
+            ],
+            "consultationDays": [
+                2,
+                16
+            ],
+            "Nbt4ya": 0,
+            "Nbt4yat": [],
+            "limit": 6,
+            "type": "م",
+            "fullName": "خالد سعد عباس"
+        },
+        {
+            "name": "Mahmo",
+            "dayOff": [
+                4,
+                11,
+                18,
+                25
+            ],
+            "consultationDays": [
+                14,
+                28,
+                15
+            ],
+            "Nbt4ya": 0,
+            "Nbt4yat": [],
+            "limit": 6,
+            "type": "م",
+            "fullName": "محمود محمد عبدالله"
+        },
+        {
+            "name": "Akram",
+            "dayOff": [
+                4,
+                11,
+                18,
+                25
+            ],
+            "consultationDays": [
+                12,
+                26
+            ],
+            "Nbt4ya": 0,
+            "Nbt4yat": [],
+            "limit": 6,
+            "type": "م",
+            "fullName": "اكرم خالد علي"
+        },
+        {
+            "name": "Safty",
+            "dayOff": [
+                5,
+                12,
+                19,
+                26
+            ],
+            "consultationDays": [
+                2,
+                16,
+                14,
+                28
+            ],
+            "Nbt4ya": 0,
+            "Nbt4yat": [],
+            "limit": 6,
+            "type": "م",
+            "fullName": "احمد محمد السفطي"
+        },
+        {
+            "name": "Abdal",
+            "dayOff": [
+                14,
+                20,
+                21
+            ],
+            "consultationDays": [
+                1,
+                12
+            ],
+            "Nbt4ya": 0,
+            "Nbt4yat": [],
+            "limit": 6,
+            "type": "م",
+            "fullName": "عبدالله محمد علاء"
+        },
+        {
+            "name": "Nasr ",
+            "dayOff": [
+                3,
+                10,
+                17,
+                24
+            ],
+            "consultationDays": [
+                13,
+                27
+            ],
+            "Nbt4ya": 0,
+            "Nbt4yat": [],
+            "limit": 6,
+            "type": "م",
+            "fullName": "احمد ناصر ذكي"
+        },
+        {
+            "name": "Alaa ",
+            "dayOff": [
+                2,
+                14,
+                15,
+                23
+            ],
+            "consultationDays": [
+                11,
+                25
+            ],
+            "Nbt4ya": 0,
+            "Nbt4yat": [],
+            "limit": 6,
+            "type": "م",
+            "fullName": "علاء عصام محمد"
+        },
+        {
+            "name": "Bahaa",
+            "dayOff": [
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                25,
+                26,
+                27,
+                28
+            ],
+            "consultationDays": [
+                1,
+                2,
+                3,
+                17,
+                18,
+                20,
+                21,
+                23,
+                24,
+                4
+            ],
+            "Nbt4ya": 0,
+            "Nbt4yat": [],
+            "limit": 7,
+            "type": " ",
+            "fullName": "بهاء"
+        },
+        {
+            "name": "Mosta",
+            "dayOff": [
+                5,
+                6,
+                7,
+                8,
+                9,
+                19,
+                20,
+                21,
+                22,
+                23,
+                24,
+                25
+            ],
+            "consultationDays": [
+                1,
+                2,
+                3,
+                4,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17,
+                26,
+                27,
+                28
+            ],
+            "Nbt4ya": 0,
+            "Nbt4yat": [],
+            "limit": 7,
+            "type": " ",
+            "fullName": " مصطفى عصام محمد"
+        }
+    ]
+}

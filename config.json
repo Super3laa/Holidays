@@ -1,0 +1,9 @@
+{
+    "days":28,
+    "daysStart":["Tue", "Wed", "Thu", "Fr ", "Sat", "Sun", "Mon"],
+    "daysStartAr":["الثلاثاء", "الاربعاء", "الخميس", "الجمعة ", "السبت", "الأحد", "الأثنين"],
+    "MonthNumber":2,
+    "YearNumber":2022,
+    "leavingTime":1500,
+    "returnTime":700
+}
