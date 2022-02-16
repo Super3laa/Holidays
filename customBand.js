@@ -15,10 +15,11 @@ const returnDate = inputs[2+usersLength+5]
 const returnDay = inputs[2+usersLength+6]
 let fileName = `${leavingDate.replace(/\//g,'-')}to${returnDate.replace(/\//g,'-')}`
 let dir = __dirname+`/CustomBands/${fileName}`
+
 if(!fs.existsSync(dir)){
     fs.mkdirSync(dir);
 }
-console.log(`Generating band undername /CutomBands/${fileName}.html`);
+console.log(`Generating band undername /CutomBands/fileName/${fileName}.html`);
 
 GenerateStatment({
     users,
@@ -27,15 +28,7 @@ GenerateStatment({
     fileName,dir
 })
 
-var consoleSignatureStyle = "font-size: 16px;" +
-  "background: #fff;" +
-  "color: black;" +
-  "text-align: center;" +
-  "padding: 10px 15px;" +
-  "width: 100%;" +
-  "border-radius: 5px;";
-
-var consoleSignatureText = "%c A.Essam ☕";
-
-console.log(consoleSignatureText, consoleSignatureStyle);
+fs.readFile(__dirname+'/Sig.txt',(err,data)=>{
+  console.log(data.toString())
+})
 

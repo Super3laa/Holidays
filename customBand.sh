@@ -6,10 +6,10 @@ do
     read -p "Enter Name : " namevar
     names+="$namevar"
     read -p "another ? (y/n) : " ans
-    if [ "$ans" == "n" ]; then
-        x=0
-    else 
+    if [ "$ans" == "y" ]; then
         names+="," 
+    else 
+        x=0
     fi
 done
 
