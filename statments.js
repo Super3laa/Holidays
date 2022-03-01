@@ -6,8 +6,7 @@ const {
 } = require('./config.json')
 
 
-function GenerateStatment({ users, leavingDate, leavingDay, returnDate, returnDay,fileName ,returnTime,leavingTime,dir}) {
-    readHTMLFile(__dirname + '/Template/band.html', async function (err, html) {
+function GenerateStatment({ users, leavingDate, leavingDay, returnDate, returnDay,fileName ,returnTime,leavingTime,dir}) {    readHTMLFile(__dirname + '/Template/band.html', async function (err, html) {
         let template = handlebars.compile(html);
         let htmlTable = ''
         users.forEach((user,i)=>{

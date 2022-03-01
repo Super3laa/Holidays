@@ -10,11 +10,11 @@ let {users} = require('./users.json')
 let {PrintStatements} = require('./statments')
 let Nbt4yatFollower = new Array(days).fill(0)
 let Table = [];
-BasicFillNbt4yat()
+//BasicFillNbt4yat()
 //Print();
 //console.log(Nbt4yatFollower)
 //checker for more than 2 will be nbt4ya
-FullFillNbt4yat()
+//FullFillNbt4yat()
 //console.log(users)
 Print();
 PrintStatements({users,returnTime,leavingTime});
