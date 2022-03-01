@@ -4,10 +4,10 @@ const path = require('path');
 const handlebars = require('handlebars');
 const writeXlsxFile = require('write-excel-file/node')
 const {
-    days,daysStart,daysStartAr,MonthNumber,YearNumber,returnTime,leavingTime
+    days, daysStart, daysStartAr, MonthNumber, YearNumber, returnTime, leavingTime
 } = require('./config.json')
-let {users} = require('./users.json')
-let {PrintStatements} = require('./statments')
+let { users } = require('./users.json')
+let { PrintStatements } = require('./statments')
 let Nbt4yatFollower = new Array(days).fill(0)
 let Table = [];
 //BasicFillNbt4yat()
@@ -17,7 +17,8 @@ let Table = [];
 //FullFillNbt4yat()
 //console.log(users)
 Print();
-PrintStatements({users,returnTime,leavingTime});
+PrintStatements({ users, returnTime, leavingTime });
+
 //console.log(Nbt4yatFollower)
 //FillTable();
 
@@ -123,7 +124,7 @@ function Print() {
                 }
             }
         }
-      //  process.stdout.write(" " + user.Nbt4ya /*+ " [" + user.Nbt4yat + "]"*/)
+        //  process.stdout.write(" " + user.Nbt4ya /*+ " [" + user.Nbt4yat + "]"*/)
         Table.push(row); row = [];
         console.log("");
 
